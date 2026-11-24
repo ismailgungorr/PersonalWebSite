@@ -2,6 +2,17 @@
 
 İsmail Güngör’ün yazılım geliştirme, ERP, bilgi teknolojileri, veri teknolojileri ve dijital dönüşüm alanlarına yönelik kişisel portföy projesi. Phase 8, yayın öncesi performans, SEO, erişilebilirlik ve navigasyon denetimlerini kapsar.
 
+## Proje ve sürüm durumu
+
+Bu portfolyo, İsmail Güngör’ün yazılım geliştirme, ERP ve iş süreçleri, bilgi teknolojileri ve veri teknolojileri alanlarındaki çalışmalarını sunar. React, Vite, TypeScript, Tailwind CSS, Motion, Lucide React ve i18next kullanır. ESLint ve Prettier kod kalitesi kontrollerini sağlar.
+
+- Türkçe ve İngilizce arayüz, responsive koyu Bento Grid.
+- Yedi proje, kategori filtreleri ve klavye erişimli ortak proje detay penceresi.
+- Deneyim zaman çizelgesi, eğitim, iletişim ve dile göre CV kullanılabilirliği.
+- Azaltılmış hareket desteği, görünür klavye odağı ve ihtiyaca göre yüklenen proje detayları.
+
+Paket sürümü `0.1.0`. İlk kararlı sürüm `v1.0.0`, canlı production kontrollerinden sonra hazırlanır. [GitHub deposu](https://github.com/ismailgungorr/PersonalWebSite)
+
 ## Yerel geliştirme
 
 Projenin kurulduğu ortam Windows 11, Node.js 24 ve npm 11’dir. PowerShell’de `npm.cmd` kullanın.
@@ -101,6 +112,13 @@ Paylaşım görseli `public/images/og-image.png` (1200 × 630, 72.606 bayt). Mar
 
 `VITE_SITE_URL`, nihai HTTPS kök adresini tanımlayan herkese açık bir build-time değerdir. Gizli bilgi saklamak için kullanılmaz. Geçerli bir adres verildiğinde canonical ve sosyal görsel için mutlak URL oluşturulur. Yayın derlemesinde `VITE_SITE_INDEXABLE=true` ayrıca ayarlandığında `index, follow`, tek URL’li sitemap ve robots Sitemap satırı üretilir. Adres veya yayın bayrağı olmadan build `noindex, follow` kullanır ve sitemap üretmez. Önizleme ortamına yayın bayrağını vermeyin.
 
+## Vercel dağıtımı
+
+1. Vercel’de GitHub bağlantısı üzerinden `ismailgungorr/PersonalWebSite` deposunu içe aktarın. Framework `Vite`, kök dizin depo kökü, production dalı `main`, Node.js sürümü `24.x`, kurulum komutu `npm ci`, build komutu `npm run build` ve çıktı dizini `dist` olmalıdır.
+2. İlk production dağıtımında `VITE_SITE_INDEXABLE` değerini kapalı tutun. Vercel’in verdiği kalıcı ücretsiz HTTPS adresini, bu adresteki dağıtım commit’ini ve uygulama davranışını doğrulayın.
+3. Doğrulamadan sonra yalnızca Production ortamında `VITE_SITE_URL` için kalıcı HTTPS kök adresini, `VITE_SITE_INDEXABLE` için `true` değerini ayarlayıp yeniden dağıtın. Preview ortamında indekslemeyi kapalı tutun.
+4. Canlı HTML, canonical, Open Graph, JSON-LD, robots.txt, sitemap.xml ve HTTPS sonuçlarını doğrulayın. Doğrulanan canlı adresi README’ye ekleyin.
+
 ## Phase 9 yayın öncesi kontrol listesi
 
 - GitHub deposunu oluşturun. Git geçmişi ve production içeriğinde kişisel veri, gizli dosya ve geçici test çıktısı taraması yapın.
@@ -112,6 +130,8 @@ Paylaşım görseli `public/images/og-image.png` (1200 × 630, 72.606 bayt). Mar
 ## Özgeçmiş gizliliği
 
 Gerçek CV dosyası yayımlanmadan önce PDF'nin görünür içeriğini, metnini ve belge özelliklerini kontrol edin. Telefon numarasını ve yayımlanmasına onay verilmemiş kişisel bilgileri çıkarın. Yalnızca onaylı PDF'nin diline ait `available` değerini etkinleştirin.
+
+Gerçek dosyalar eklendiğinde PDF özellikleri ve telefon numarasına ek olarak Türkçe karakterleri, dosya boyutunu, dil eşleşmesini, `HTTP 200` yanıtını, `application/pdf` MIME türünü, yeni sekmede görüntülemeyi ve indirmeyi kontrol edin.
 
 ## Proje dizinleri
 

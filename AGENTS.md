@@ -60,3 +60,9 @@ Yerel tarayıcı testlerinde her çalıştırma için işletim sisteminin geçic
 - Scroll Spy `src/hooks/useActiveSection.ts` içinde konum önbelleğini kullanır. Manuel kaydırma sırasında URL geçmişine kayıt ekleme.
 - SEO metadata ve tarama dosyaları `build/site-seo.ts` tarafından üretilir. Nihai HTTPS adresi ve açık indeksleme bayrağı olmadan `noindex, follow` güvenli varsayılandır. Üretilen siteye ölçüm raporlarını, orijinal arşivleri veya özel dosyaları ekleme.
 - Vite izleme istisnalarını, CV kullanılabilirliğini ve onaylı iletişim bilgilerini koru. Phase 9 için kullanıcının onayını bekle.
+
+## Phase 9 yayın kuralları
+
+- Yayın hedefi GitHub’daki `ismailgungorr/PersonalWebSite` deposunun `main` dalı ve Vercel Git entegrasyonudur. Yalnızca gizlilik taramasından geçen dosyaları gönder.
+- İlk production dağıtımında ve Preview ortamında indekslemeyi kapalı tut. Yalnızca kalıcı HTTPS adresini ve production dağıtımını doğruladıktan sonra Production ortamında indekslemeyi etkinleştir.
+- Canlı commit eşleşmesi ile zorunlu production kontrolleri tamamlandığında `v1.0.0` sürümünü ve tag’i hazırla. Yetkilendirme ve Search Console sahipliği için kullanıcı oturumunu kullan.
