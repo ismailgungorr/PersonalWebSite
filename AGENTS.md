@@ -64,5 +64,6 @@ Yerel tarayıcı testlerinde her çalıştırma için işletim sisteminin geçic
 ## Phase 9 yayın kuralları
 
 - Yayın hedefi GitHub’daki `ismailgungorr/PersonalWebSite` deposunun `main` dalı ve Vercel Git entegrasyonudur. Yalnızca gizlilik taramasından geçen dosyaları gönder.
-- İlk production dağıtımında ve Preview ortamında indekslemeyi kapalı tut. Yalnızca kalıcı HTTPS adresini ve production dağıtımını doğruladıktan sonra Production ortamında indekslemeyi etkinleştir.
+- Mevcut Vercel projesi `personalwebsite` ve kalıcı production adresi `https://ismailgungor.vercel.app`. GitHub `main` dalından otomatik dağıtımı, eski proje adresindeki HTTP 308 yönlendirmesini ve otomatik Vercel adreslerinin erişim korumasını koru.
+- `VITE_SITE_URL` ve `VITE_SITE_INDEXABLE=true` yalnızca Production ortamına aittir. Preview için `noindex, follow` davranışını, canlı HTML için canonical, Open Graph, JSON-LD, robots.txt ve sitemap eşleşmesini koru.
 - Canlı commit eşleşmesi ile zorunlu production kontrolleri tamamlandığında `v1.0.0` sürümünü ve tag’i hazırla. Yetkilendirme ve Search Console sahipliği için kullanıcı oturumunu kullan.

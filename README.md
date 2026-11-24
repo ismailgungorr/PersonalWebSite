@@ -11,7 +11,7 @@ Bu portfolyo, İsmail Güngör’ün yazılım geliştirme, ERP ve iş süreçle
 - Deneyim zaman çizelgesi, eğitim, iletişim ve dile göre CV kullanılabilirliği.
 - Azaltılmış hareket desteği, görünür klavye odağı ve ihtiyaca göre yüklenen proje detayları.
 
-Paket sürümü `0.1.0`. İlk kararlı sürüm `v1.0.0`, canlı production kontrollerinden sonra hazırlanır. [GitHub deposu](https://github.com/ismailgungorr/PersonalWebSite)
+İlk kararlı sürüm **v1.0.0**. [Canlı portföy](https://ismailgungor.vercel.app) · [GitHub deposu](https://github.com/ismailgungorr/PersonalWebSite) · [Sürüm notları](CHANGELOG.md)
 
 ## Yerel geliştirme
 
@@ -117,9 +117,24 @@ Paylaşım görseli `public/images/og-image.png` (1200 × 630, 72.606 bayt). Mar
 1. Vercel’de GitHub bağlantısı üzerinden `ismailgungorr/PersonalWebSite` deposunu içe aktarın. Framework `Vite`, kök dizin depo kökü, production dalı `main`, Node.js sürümü `24.x`, kurulum komutu `npm ci`, build komutu `npm run build` ve çıktı dizini `dist` olmalıdır.
 2. İlk production dağıtımında `VITE_SITE_INDEXABLE` değerini kapalı tutun. Vercel’in verdiği kalıcı ücretsiz HTTPS adresini, bu adresteki dağıtım commit’ini ve uygulama davranışını doğrulayın.
 3. Doğrulamadan sonra yalnızca Production ortamında `VITE_SITE_URL` için kalıcı HTTPS kök adresini, `VITE_SITE_INDEXABLE` için `true` değerini ayarlayıp yeniden dağıtın. Preview ortamında indekslemeyi kapalı tutun.
-4. Canlı HTML, canonical, Open Graph, JSON-LD, robots.txt, sitemap.xml ve HTTPS sonuçlarını doğrulayın. Doğrulanan canlı adresi README’ye ekleyin.
+4. Canlı HTML, canonical, Open Graph, JSON-LD, robots.txt, sitemap.xml ve HTTPS sonuçlarını doğrulayın.
 
-## Phase 9 yayın öncesi kontrol listesi
+Kalıcı production adresi [ismailgungor.vercel.app](https://ismailgungor.vercel.app). İlk Vercel proje adresi kalıcı adrese HTTP 308 ile yönlenir. Vercel’in otomatik dağıtım adreslerinde erişim koruması açıktır. GitHub `main` dalı production dağıtımını tetikler.
+
+### Production Lighthouse medyanı
+
+Gerçek HTTPS adresinde Lighthouse 13.6.0 ile profil başına üç koşunun medyanı.
+
+| Profil   | Performance | Accessibility | Best Practices | SEO |    LCP |     CLS |    TBT |
+| -------- | ----------: | ------------: | -------------: | --: | -----: | ------: | -----: |
+| Mobil    |          99 |           100 |            100 | 100 | 800 ms |       0 | 114 ms |
+| Masaüstü |         100 |           100 |            100 | 100 | 256 ms | 0,00059 |   0 ms |
+
+### Google Search Console
+
+[Google Search Console](https://search.google.com/search-console/) üzerinden canlı HTTPS adresi için URL ön eki mülkü oluşturun. Google’ın sağladığı doğrulama dosyasını veya meta etiketini bir sonraki dağıtımla ekleyin. Sahipliği doğruladıktan sonra [sitemap.xml](https://ismailgungor.vercel.app/sitemap.xml) dosyasını gönderin ve URL Denetimi aracından ana sayfanın dizine eklenmesini isteyin.
+
+## Yayın kontrol listesi
 
 - GitHub deposunu oluşturun. Git geçmişi ve production içeriğinde kişisel veri, gizli dosya ve geçici test çıktısı taraması yapın.
 - Vercel projesini ve production dağıtımını hazırlayın. Nihai domain, HTTPS ve hosting güvenlik başlıklarını doğrulayın.
