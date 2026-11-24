@@ -1,0 +1,420 @@
+{
+  "language": {
+    "label": "Interface language",
+    "tr": "Turkish",
+    "en": "English"
+  },
+  "navigation": {
+    "label": "Main navigation",
+    "skip": "Skip to main content",
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact",
+    "open": "Open menu",
+    "close": "Close menu"
+  },
+  "hero": {
+    "status": "Open to new job opportunities",
+    "heading": "Hi, I’m <highlight>{{name}}.</highlight>",
+    "description": "I’m a Management Information Systems graduate interested in software development, information technology, and business processes. I aim to apply my technical knowledge to support digital transformation in businesses.",
+    "projects": "Explore My Projects"
+  },
+  "profile": {
+    "degree": "Management Information Systems Graduate",
+    "location": {
+      "title": "Location",
+      "name": "{{city}}, Türkiye",
+      "description": "Open to career opportunities in {{city}}"
+    },
+    "education": {
+      "university": "Bursa Uludağ University",
+      "title": "Education",
+      "program": "Management Information Systems",
+      "level": "Bachelor’s degree"
+    },
+    "interests": {
+      "title": "Career interests",
+      "software": "Software Development",
+      "erp": "ERP & Business Processes",
+      "it": "Information Technology"
+    }
+  },
+  "meta": {
+    "title": "İsmail Güngör | Management Information Systems Graduate",
+    "description": "Personal portfolio of İsmail Güngör, a Management Information Systems graduate from Bursa Uludağ University, featuring software development, ERP, IT and data projects.",
+    "imageAlt": "İsmail Güngör, Management Information Systems graduate. Career focus in ERP, software development, and information technology."
+  },
+  "about": {
+    "eyebrow": "01 / ABOUT ME",
+    "title": "About Me",
+    "cardTitle": "Where technology meets business.",
+    "introduction": "I graduated from {{university}} with a degree in {{program}}. I aim to use my knowledge of software development, data technologies, and business processes to solve real-world business problems.",
+    "experience": "At university, I worked on projects in software development, data collection, and distributed systems. My time in the Big Data Lab gave me hands-on experience with Linux-based systems, Hadoop infrastructure, and data technologies.",
+    "goal": "I aim to build my career in ERP, IT, and software development while contributing to digital transformation in businesses.",
+    "highlights": {
+      "title": "At a glance",
+      "militaryService": "Completed military service.",
+      "learning": "Committed to continuous learning and professional development."
+    }
+  },
+  "expertise": {
+    "title": "Career Focus & Competencies",
+    "areas": {
+      "software": {
+        "title": "Software Development",
+        "description": "Work on web applications, object-oriented programming, REST APIs, and database integrations."
+      },
+      "erp": {
+        "title": "ERP & Business Processes",
+        "description": "My professional development focuses on enterprise resource planning, business process analysis, and digital transformation."
+      },
+      "it": {
+        "title": "Information Technology",
+        "description": "Hands-on work setting up and configuring Linux-based systems and working with distributed infrastructure."
+      },
+      "data": {
+        "title": "Data Technologies",
+        "description": "Project experience in web scraping, data collection and processing, and big data technologies."
+      }
+    },
+    "tags": {
+      "csharp": "C#",
+      "aspnet": "ASP.NET Core",
+      "python": "Python",
+      "javascript": "JavaScript",
+      "entityFramework": "Entity Framework Core",
+      "erp": "ERP",
+      "sql": "SQL",
+      "linux": "Linux",
+      "ubuntuServer": "Ubuntu Server",
+      "hadoop": "Hadoop",
+      "virtualBox": "VirtualBox",
+      "selenium": "Selenium",
+      "pandas": "Pandas",
+      "hive": "Apache Hive",
+      "kafka": "Apache Kafka",
+      "pyspark": "PySpark",
+      "businessProcesses": "Business Processes",
+      "processAnalysis": "Process Analysis"
+    }
+  },
+  "technologies": {
+    "csharp": "C#",
+    "python": "Python",
+    "javascript": "JavaScript",
+    "java": "Java",
+    "kotlin": "Kotlin",
+    "aspnet": "ASP.NET Core",
+    "entityFramework": "Entity Framework Core",
+    "react": "React",
+    "node": "Node.js",
+    "html5": "HTML5",
+    "css3": "CSS3",
+    "bootstrap": "Bootstrap",
+    "rest": "REST API",
+    "sql": "SQL",
+    "sqlServer": "SQL Server",
+    "mysql": "MySQL",
+    "sqlite": "SQLite",
+    "blobs": "Netlify Blobs",
+    "hadoop": "Hadoop",
+    "hive": "Apache Hive",
+    "kafka": "Apache Kafka",
+    "pyspark": "PySpark",
+    "ubuntu": "Ubuntu Server",
+    "linux": "Linux",
+    "virtualbox": "VirtualBox",
+    "pandas": "Pandas",
+    "selenium": "Selenium",
+    "nltk": "NLTK",
+    "sklearn": "Scikit-learn",
+    "git": "Git",
+    "github": "GitHub",
+    "visualStudio": "Visual Studio",
+    "vscode": "Visual Studio Code",
+    "netlify": "Netlify",
+    "swagger": "Swagger",
+    "html": "HTML",
+    "css": "CSS",
+    "tfidf": "TF-IDF",
+    "mvc": "ASP.NET Core MVC",
+    "razor": "Razor Pages"
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "categories": {
+      "languages": "Programming Languages",
+      "web": "Web Technologies",
+      "storage": "Database & Storage",
+      "bigData": "Big Data & IT",
+      "analysis": "Data Analysis & Automation",
+      "tools": "Development Tools"
+    },
+    "storageNote": "Netlify Blobs is an object storage service."
+  },
+  "projects": {
+    "title": "Selected Projects",
+    "featured": "Featured",
+    "filterLabel": "Filter projects",
+    "filters": {
+      "all": "All",
+      "web": "Web Development",
+      "business": "Business Solutions",
+      "data": "Data & AI",
+      "it": "IT & Infrastructure"
+    },
+    "results_one": "{{count}} project shown",
+    "results_other": "{{count}} projects shown",
+    "categories": {
+      "web": "Web Development",
+      "business": "Business Solutions",
+      "bigData": "Big Data",
+      "infrastructure": "IT Infrastructure",
+      "data": "Data",
+      "automation": "Automation",
+      "machineLearning": "Machine Learning"
+    },
+    "status": {
+      "active": "Active",
+      "completed": "Completed",
+      "learning": "Learning project"
+    },
+    "placeholder": "Project image unavailable",
+    "details": "View Details",
+    "detailsFor": "View Details: {{title}}",
+    "live": "Open Live Project",
+    "github": "GitHub",
+    "close": "Close dialog",
+    "problem": "Problem",
+    "solution": "Solution",
+    "features": "Key features and work",
+    "value": "Business value",
+    "tech": "Technologies",
+    "items": {
+      "lebonesa-qrmenu": {
+        "title": "Le Bonesa QR Menu & Management System",
+        "summary": "A QR menu system built to digitize menu management for a food and beverage business, now in active use.",
+        "problem": "Printed menus make it harder to add products, change prices, and let customers know when an item is sold out.",
+        "solution": "Customers can open a digital menu from a QR code. The business can manage and publish menu changes through a password-protected dashboard.",
+        "features": [
+          "Digital QR menu",
+          "Product listings by category",
+          "Password-protected dashboard",
+          "Add new products",
+          "Edit and delete products",
+          "Update prices",
+          "Reorder products",
+          "Manage item availability",
+          "Publish menu changes",
+          "Product labels"
+        ],
+        "images": [
+          "Categories and products in Le Bonesa’s digital menu",
+          "Categories and product list in the management dashboard",
+          "Product editing form in the management dashboard"
+        ],
+        "value": "The digital workflow makes product and price updates easier and reduces reliance on printed menus.",
+        "imageNote": "Product, price, and category information reflects the time these screenshots were captured."
+      },
+      "hadoop": {
+        "title": "Big Data Lab",
+        "summary": "Contributed to setting up and configuring a 15-node distributed Hadoop cluster at the R&D Coordination Office of Bursa Uludağ University.",
+        "problem": "The lab needed a distributed environment that could be configured and tested for big data work.",
+        "solution": "As part of the lab team, I helped prepare Linux environments, configure the Hadoop cluster, and integrate data tools.",
+        "features": [
+          "Prepare Linux server environments",
+          "Install and configure Hadoop infrastructure",
+          "Configure the distributed network",
+          "Install Hive, Kafka, and PySpark",
+          "Integrate software",
+          "Test and troubleshoot the system"
+        ],
+        "illustrationAlt": "Fifteen distributed server nodes with conceptual connections, representing a Hadoop and Linux environment."
+      },
+      "lebonesa-website": {
+        "title": "Le Bonesa Business Website",
+        "summary": "A live business website that presents the Le Bonesa brand and its products to customers.",
+        "problem": "The business needed an online destination where customers could get to know the brand and browse its products.",
+        "solution": "I built a public website that brings together the brand presentation and product information.",
+        "features": [
+          "Brand presentation",
+          "Product showcase",
+          "Online access for customers"
+        ],
+        "images": [
+          "Homepage of the Le Bonesa business website",
+          "Product and menu section of the business website",
+          "Visit and location section of the business website"
+        ]
+      },
+      "yok-academic-crawler": {
+        "title": "YÖK Academic Web Crawler",
+        "summary": "An application that automates the collection of data on academic staff at Bursa Uludağ University and exports it in structured formats.",
+        "problem": "Academic staff profiles, publications, and awards were spread across multiple pages and needed to be collected together.",
+        "solution": "I developed a scraper that navigates paginated results, processes academic records, and exports them to Excel and CSV.",
+        "features": [
+          "Collect academic staff data",
+          "Automate pagination",
+          "Process publication and award information",
+          "Export to Excel and CSV"
+        ],
+        "illustrationAlt": "A pipeline that collects web data with Selenium and Python, processes it, and exports an Excel or CSV table."
+      },
+      "nlp-complaints": {
+        "title": "NLP Consumer Complaint Classification",
+        "summary": "A project that uses natural language processing and machine learning to classify consumer complaints.",
+        "problem": "Free-text complaints needed to be represented in a form that classification models could use.",
+        "solution": "I preprocessed complaint text, extracted TF-IDF features, and compared classification models.",
+        "features": [
+          "Text preprocessing",
+          "TF-IDF feature extraction",
+          "Machine learning model comparison",
+          "Model performance evaluation"
+        ],
+        "illustrationAlt": "Complaint text moves through preprocessing, TF-IDF feature extraction, and classification into generic groups."
+      },
+      "store-app": {
+        "title": "StoreApp",
+        "summary": "A learning project focused on product management and database operations with ASP.NET Core MVC.",
+        "problem": "I wanted to practice how an MVC application handles product records, search, and image uploads.",
+        "solution": "I built a product management application for practice, using Entity Framework Core for data access.",
+        "features": [
+          "Add products",
+          "List products",
+          "Upload images",
+          "Search and filter products",
+          "Integrate Entity Framework Core"
+        ],
+        "illustrationAlt": "A product management interface connects to an ASP.NET Core MVC application and a database through Entity Framework Core."
+      },
+      "todo-app": {
+        "title": "TodoApp",
+        "summary": "A task management learning project built around Razor Pages, dependency injection, and data access.",
+        "problem": "I wanted to practice different data access approaches and environment-specific configuration in a task management app.",
+        "solution": "I built a Razor Pages task application with in-memory and Entity Framework data access implementations.",
+        "features": [
+          "Task management",
+          "In-memory and Entity Framework data access",
+          "Dependency injection",
+          "Environment-specific configuration"
+        ],
+        "illustrationAlt": "A Razor Pages task list uses dependency injection to connect to ITodoStore and in-memory or Entity Framework Core data access."
+      }
+    },
+    "media": "Project images",
+    "illustration": "Conceptual technical illustration",
+    "loadingDetails": "Loading project details…",
+    "detailsError": "Project details could not be loaded. Refresh the page and try again."
+  },
+  "experience": {
+    "title": "Work Experience",
+    "relatedProjects": "Related projects",
+    "entries": {
+      "researchInternship": {
+        "role": "Software / R&D Intern",
+        "organization": "Bursa Uludağ University — R&D Coordination Office",
+        "start": "February 2025",
+        "end": "June 2025",
+        "type": "Internship",
+        "summary": "I contributed to distributed systems and academic data collection projects in the Big Data Lab.",
+        "responsibilities": {
+          "cluster": "Contributed to the setup and configuration of a 15-node distributed Hadoop infrastructure.",
+          "systems": "Participated in technical installation, network configuration, system checks and testing on Ubuntu-based systems.",
+          "tools": "Worked with Hadoop, Apache Hive, Apache Kafka and PySpark components.",
+          "teamwork": "Participated in task tracking, troubleshooting and problem-solving activities within a team.",
+          "reporting": "Worked on academic data collection using Python and Selenium and reporting in Excel/CSV formats."
+        }
+      },
+      "hospitality": {
+        "role": "Waiter / Service Assistant",
+        "organization": "Misi Kamp Karavan, Gümüş Vadi and Meze Özlüce",
+        "type": "Hospitality Experience",
+        "summary": "I developed a practical understanding of day-to-day operations, order tracking, and team coordination during busy service periods.",
+        "responsibilities": {
+          "orders": "Used restaurant billing and order management systems to track orders and customer requests.",
+          "coordination": "Took responsibility for team coordination, customer communication and task tracking during busy operations.",
+          "operations": "Gained practical experience in daily business operations and order management processes."
+        },
+        "competencies": {
+          "billing": "Restaurant Billing Systems",
+          "operations": "Business Operations",
+          "orders": "Order Tracking",
+          "teamwork": "Teamwork",
+          "communication": "Customer Communication"
+        }
+      }
+    },
+    "technologies": "Technologies",
+    "competencies": "Skills gained"
+  },
+  "education": {
+    "title": "Education",
+    "degree": "Bachelor's Degree",
+    "graduated": "Graduated"
+  },
+  "additionalInformation": {
+    "title": "Additional Information",
+    "items": {
+      "military": {
+        "title": "Military Service",
+        "description": "Military service completed."
+      },
+      "license": {
+        "title": "Driving License",
+        "description": "Class B driving license."
+      },
+      "driving": {
+        "title": "Driving Experience",
+        "description": "6 years of active driving experience."
+      },
+      "travel": {
+        "title": "Travel Availability",
+        "description": "Available for intercity travel and overnight stays."
+      },
+      "language": {
+        "title": "Foreign Language",
+        "description": "English — Intermediate"
+      },
+      "location": {
+        "title": "Location"
+      }
+    }
+  },
+  "resume": {
+    "title": "Resume",
+    "description": "Learn more about my educational background, technical skills, projects and professional experience through my resume.",
+    "download": "Download Resume",
+    "view": "View Resume",
+    "unavailable": "The resume PDF will be available soon."
+  },
+  "contact": {
+    "title": "Let's Connect",
+    "description": "Feel free to contact me regarding career opportunities, collaborations and technology projects.",
+    "status": "Open to Work",
+    "heroAction": "Contact Me",
+    "email": {
+      "title": "Professional Email",
+      "description": "Reach out directly for career opportunities and collaborations.",
+      "send": "Send Email",
+      "copy": "Copy Email",
+      "copied": "Copied!",
+      "copyError": "Unable to copy the email address."
+    },
+    "social": {
+      "linkedin": "My professional profile, career background and professional network.",
+      "github": "My software projects, source code and technical work.",
+      "view": "View Profile",
+      "profileLabel": "View Profile: {{name}} (opens in a new tab)"
+    },
+    "careerFocus": "Career Focus"
+  },
+  "footer": {
+    "navigation": "Footer navigation",
+    "socialLabel": "Social media and email links",
+    "socialLink": "{{name}} (opens in a new tab)",
+    "backToTop": "Back to top",
+    "copyright": "© {{year}} {{name}}. All rights reserved."
+  }
+}

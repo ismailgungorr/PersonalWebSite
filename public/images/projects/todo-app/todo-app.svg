@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320">
+  <defs>
+    <pattern id="tasks-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0v32" fill="none" stroke="#202629"/>
+    </pattern>
+  </defs>
+  <path fill="#111416" d="M0 0h640v320H0z"/>
+  <path fill="url(#tasks-grid)" d="M0 0h640v320H0z"/>
+  <path d="M95 65h130a13 13 0 0 1 13 13v151a13 13 0 0 1-13 13H95a13 13 0 0 1-13-13V78a13 13 0 0 1 13-13Z" fill="#162724" stroke="#4f8c79" stroke-width="2"/>
+  <path d="M82 98h156m-128-17h1m13 0h1m13 0h1" fill="none" stroke="#75d9ba" stroke-width="2" stroke-linecap="round"/>
+  <g fill="#142321" stroke="#5daa94" stroke-width="2"><rect x="103" y="119" width="20" height="20" rx="4"/><rect x="103" y="158" width="20" height="20" rx="4"/><rect x="103" y="197" width="20" height="20" rx="4"/></g>
+  <path d="m107 128 4 5 8-9m-12 43 4 5 8-9m16-32h74m-74 38h62m-62 38h69" fill="none" stroke="#75d9ba" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M238 151h61m-10-5 7 5-7 5m88-5h44m0-57v114m0-114h43m-43 114h43" fill="none" stroke="#55ad91" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m339 107 37 22v44l-37 22-37-22v-44z" fill="#1b332e" stroke="#65bda2" stroke-width="2"/>
+  <path d="M327 151h24m-12-12v24" stroke="#75d9ba" stroke-width="3" stroke-linecap="round"/>
+  <g fill="#162724" stroke="#4f8c79" stroke-width="2"><rect x="464" y="62" width="96" height="64" rx="11"/><rect x="464" y="176" width="96" height="64" rx="11"/></g>
+  <path d="m490 87 22-12 23 12-23 12zm0 0v14l22 13 23-13V87m-23 12v15m-25 85v19c0 13 51 13 51 0v-19m-51 8c0 13 51 13 51 0" fill="none" stroke="#75d9ba" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="512.5" cy="199" rx="25.5" ry="8" fill="#204237" stroke="#75d9ba" stroke-width="2"/>
+</svg>

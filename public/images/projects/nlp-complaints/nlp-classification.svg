@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320">
+  <defs>
+    <pattern id="language-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0v32" fill="none" stroke="#202629"/>
+    </pattern>
+  </defs>
+  <path fill="#111416" d="M0 0h640v320H0z"/>
+  <path fill="url(#language-grid)" d="M0 0h640v320H0z"/>
+  <g fill="none" stroke="#3e9a80" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M159 153h39m-8-5 6 5-6 5m135-5h40m-8-5 6 5-6 5m104-5h28m0-66v130m0-130h25m-25 66h25m-25 64h25"/>
+  </g>
+  <path d="M62 102h82a13 13 0 0 1 13 13v67a13 13 0 0 1-13 13h-38l-29 22v-22H62a13 13 0 0 1-13-13v-67a13 13 0 0 1 13-13Z" fill="#162724" stroke="#4f8c79" stroke-width="2"/>
+  <path d="M68 126h69m-69 18h51m-51 18h61" stroke="#76cdb2" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="205" y="86" width="118" height="134" rx="14" fill="#141f20" stroke="#4f8c79" stroke-width="2"/>
+  <g fill="#2a6558"><path d="M220 105h25v24h-25zm31 0h25v24h-25zm31 0h25v24h-25zm-62 31h25v24h-25zm31 0h25v24h-25zm31 0h25v24h-25zm-62 31h25v24h-25zm31 0h25v24h-25zm31 0h25v24h-25z"/></g>
+  <path d="M251 105h25v24h-25zm31 31h25v24h-25zm-62 31h25v24h-25z" fill="#58bd9e"/>
+  <path d="m419 96 47 28v57l-47 28-47-28v-57z" fill="#162724" stroke="#59ad94" stroke-width="2"/>
+  <path d="m400 138 19-10 20 10v27l-20 12-19-12z" fill="none" stroke="#75d9ba" stroke-width="2"/>
+  <g fill="#172a26" stroke="#4f8c79" stroke-width="2"><rect x="524" y="64" width="62" height="47" rx="9"/><rect x="524" y="129" width="62" height="47" rx="9"/><rect x="524" y="193" width="62" height="47" rx="9"/></g>
+  <path d="M542 87h1m9 0h16m-26 66h1m9 0h16m-26 64h1m9 0h16" stroke="#75d9ba" stroke-width="3" stroke-linecap="round"/>
+</svg>

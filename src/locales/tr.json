@@ -1,0 +1,420 @@
+{
+  "language": {
+    "label": "Arayüz dili",
+    "tr": "Türkçe",
+    "en": "İngilizce"
+  },
+  "navigation": {
+    "label": "Ana gezinme",
+    "skip": "Ana içeriğe geç",
+    "home": "Ana Sayfa",
+    "about": "Hakkımda",
+    "projects": "Projeler",
+    "experience": "Deneyim",
+    "contact": "İletişim",
+    "open": "Menüyü aç",
+    "close": "Menüyü kapat"
+  },
+  "hero": {
+    "status": "Yeni iş fırsatlarına açık",
+    "heading": "Merhaba, ben <highlight>{{name}}.</highlight>",
+    "description": "Yazılım geliştirme, bilgi teknolojileri ve iş süreçlerine ilgi duyan bir Yönetim Bilişim Sistemleri mezunuyum. Teknik bilgi birikimimle işletmelerin dijital dönüşüm süreçlerine katkı sağlamayı hedefliyorum.",
+    "projects": "Projelerimi incele"
+  },
+  "profile": {
+    "degree": "Yönetim Bilişim Sistemleri Mezunu",
+    "location": {
+      "title": "Konum",
+      "name": "{{city}}, Türkiye",
+      "description": "{{city}}’daki kariyer fırsatlarına açık"
+    },
+    "education": {
+      "university": "Bursa Uludağ Üniversitesi",
+      "title": "Eğitim",
+      "program": "Yönetim Bilişim Sistemleri",
+      "level": "Lisans mezunu"
+    },
+    "interests": {
+      "title": "Kariyer ilgi alanları",
+      "software": "Yazılım Geliştirme",
+      "erp": "ERP ve İş Süreçleri",
+      "it": "Bilgi Teknolojileri"
+    }
+  },
+  "meta": {
+    "title": "İsmail Güngör | Yönetim Bilişim Sistemleri Mezunu",
+    "description": "Bursa Uludağ Üniversitesi Yönetim Bilişim Sistemleri mezunu İsmail Güngör’ün yazılım geliştirme, ERP, bilgi teknolojileri ve veri projelerini içeren kişisel portfolyosu.",
+    "imageAlt": "İsmail Güngör, Yönetim Bilişim Sistemleri mezunu. Kariyer odağı ERP, Yazılım Geliştirme ve Bilgi Teknolojileri."
+  },
+  "about": {
+    "eyebrow": "01 / HAKKIMDA",
+    "title": "Hakkımda",
+    "cardTitle": "Teknoloji ve iş dünyasının kesişiminde.",
+    "introduction": "{{university}} {{program}} mezunuyum. Yazılım geliştirme, veri teknolojileri ve işletme süreçlerine yönelik bilgi birikimimi gerçek iş problemlerine çözüm üretmek için kullanmayı hedefliyorum.",
+    "experience": "Üniversite eğitimim boyunca yazılım geliştirme, veri toplama ve dağıtık sistemler üzerine çeşitli projelerde çalıştım. Büyük Veri Laboratuvarı deneyimim sayesinde Linux tabanlı sistemler, Hadoop altyapısı ve veri teknolojileri konusunda uygulamalı deneyim kazandım.",
+    "goal": "Kariyerimi ERP, bilgi teknolojileri ve yazılım geliştirme alanlarında ilerletmeyi ve işletmelerin dijital dönüşümüne katkı sağlamayı hedefliyorum.",
+    "highlights": {
+      "title": "Kısa bilgiler",
+      "militaryService": "Askerlik hizmeti tamamlandı.",
+      "learning": "Sürekli öğrenmeye ve mesleki gelişime açık."
+    }
+  },
+  "expertise": {
+    "title": "Kariyer ve Yetkinlik Alanlarım",
+    "areas": {
+      "software": {
+        "title": "Yazılım Geliştirme",
+        "description": "Web uygulamaları, nesne yönelimli programlama, REST API ve veri tabanı entegrasyonları üzerine çalışmalar."
+      },
+      "erp": {
+        "title": "ERP ve İş Süreçleri",
+        "description": "Mesleki gelişim hedefim, kurumsal kaynak planlama, işletme süreçlerinin analizi ve dijital dönüşüm alanlarında bilgi birikimimi geliştirmek."
+      },
+      "it": {
+        "title": "Bilgi Teknolojileri",
+        "description": "Linux tabanlı sistemlerin kurulumu, yapılandırılması ve dağıtık sistem altyapıları üzerine uygulamalı çalışmalar."
+      },
+      "data": {
+        "title": "Veri Teknolojileri",
+        "description": "Web kazıma, veri toplama, veri işleme ve büyük veri teknolojileri üzerine proje deneyimleri."
+      }
+    },
+    "tags": {
+      "csharp": "C#",
+      "aspnet": "ASP.NET Core",
+      "python": "Python",
+      "javascript": "JavaScript",
+      "entityFramework": "Entity Framework Core",
+      "erp": "ERP",
+      "sql": "SQL",
+      "linux": "Linux",
+      "ubuntuServer": "Ubuntu Server",
+      "hadoop": "Hadoop",
+      "virtualBox": "VirtualBox",
+      "selenium": "Selenium",
+      "pandas": "Pandas",
+      "hive": "Apache Hive",
+      "kafka": "Apache Kafka",
+      "pyspark": "PySpark",
+      "businessProcesses": "İş Süreçleri",
+      "processAnalysis": "Süreç Analizi"
+    }
+  },
+  "technologies": {
+    "csharp": "C#",
+    "python": "Python",
+    "javascript": "JavaScript",
+    "java": "Java",
+    "kotlin": "Kotlin",
+    "aspnet": "ASP.NET Core",
+    "entityFramework": "Entity Framework Core",
+    "react": "React",
+    "node": "Node.js",
+    "html5": "HTML5",
+    "css3": "CSS3",
+    "bootstrap": "Bootstrap",
+    "rest": "REST API",
+    "sql": "SQL",
+    "sqlServer": "SQL Server",
+    "mysql": "MySQL",
+    "sqlite": "SQLite",
+    "blobs": "Netlify Blobs",
+    "hadoop": "Hadoop",
+    "hive": "Apache Hive",
+    "kafka": "Apache Kafka",
+    "pyspark": "PySpark",
+    "ubuntu": "Ubuntu Server",
+    "linux": "Linux",
+    "virtualbox": "VirtualBox",
+    "pandas": "Pandas",
+    "selenium": "Selenium",
+    "nltk": "NLTK",
+    "sklearn": "Scikit-learn",
+    "git": "Git",
+    "github": "GitHub",
+    "visualStudio": "Visual Studio",
+    "vscode": "Visual Studio Code",
+    "netlify": "Netlify",
+    "swagger": "Swagger",
+    "html": "HTML",
+    "css": "CSS",
+    "tfidf": "TF-IDF",
+    "mvc": "ASP.NET Core MVC",
+    "razor": "Razor Pages"
+  },
+  "skills": {
+    "title": "Teknik Yetkinliklerim",
+    "categories": {
+      "languages": "Programlama Dilleri",
+      "web": "Web Teknolojileri",
+      "storage": "Veri Tabanı ve Depolama",
+      "bigData": "Büyük Veri ve BT",
+      "analysis": "Veri Analizi ve Otomasyon",
+      "tools": "Geliştirme Araçları"
+    },
+    "storageNote": "Netlify Blobs, nesne depolama hizmetidir."
+  },
+  "projects": {
+    "title": "Projelerim",
+    "featured": "Öne çıkan",
+    "filterLabel": "Projeleri filtrele",
+    "filters": {
+      "all": "Tümü",
+      "web": "Web Geliştirme",
+      "business": "İş Çözümleri",
+      "data": "Veri ve Yapay Zekâ",
+      "it": "BT ve Altyapı"
+    },
+    "results_one": "{{count}} proje gösteriliyor",
+    "results_other": "{{count}} proje gösteriliyor",
+    "categories": {
+      "web": "Web Geliştirme",
+      "business": "İş Çözümleri",
+      "bigData": "Büyük Veri",
+      "infrastructure": "BT Altyapısı",
+      "data": "Veri",
+      "automation": "Otomasyon",
+      "machineLearning": "Makine Öğrenmesi"
+    },
+    "status": {
+      "active": "Aktif",
+      "completed": "Tamamlandı",
+      "learning": "Eğitim projesi"
+    },
+    "placeholder": "Proje görseli kullanılamıyor",
+    "details": "Detayları incele",
+    "detailsFor": "Detayları incele: {{title}}",
+    "live": "Canlı projeyi aç",
+    "github": "GitHub",
+    "close": "Pencereyi kapat",
+    "problem": "Problem",
+    "solution": "Çözüm",
+    "features": "Temel özellikler ve çalışmalar",
+    "value": "İşletmeye katkı",
+    "tech": "Kullanılan teknolojiler",
+    "items": {
+      "lebonesa-qrmenu": {
+        "title": "Le Bonesa QR Menü ve Yönetim Sistemi",
+        "summary": "Bir yiyecek ve içecek işletmesinin menü yönetimini dijitalleştirmek için geliştirilen ve aktif olarak kullanılan QR menü sistemi.",
+        "problem": "Basılı menülerde ürün eklemek, fiyat değiştirmek ve tükenen ürünleri müşterilere bildirmek operasyonel zorluk yaratabiliyor.",
+        "solution": "Müşteriler QR koddan dijital menüye erişebiliyor. İşletme, şifreli yönetim panelinden menü içeriğini düzenleyip yayımlayabiliyor.",
+        "features": [
+          "Dijital QR menü",
+          "Kategori bazlı ürün listeleme",
+          "Şifreli yönetim paneli",
+          "Yeni ürün ekleme",
+          "Ürün düzenleme ve silme",
+          "Fiyat güncelleme",
+          "Ürün sıralama",
+          "Ürün bulunabilirliği yönetimi",
+          "Menü değişikliklerini yayımlama",
+          "Ürün etiketleri"
+        ],
+        "images": [
+          "Le Bonesa dijital menüsünde kategoriler ve ürünler",
+          "Yönetim panelinde kategori ve ürün listesi",
+          "Yönetim panelinde ürün düzenleme formu"
+        ],
+        "value": "Menü yönetimi dijitalleşti, ürün ve fiyat bilgileri daha kolay güncellenebiliyor ve basılı menüye olan bağımlılık azaldı.",
+        "imageNote": "Görsellerdeki ürün, fiyat ve kategori bilgileri ekran görüntülerinin alındığı zamana aittir."
+      },
+      "hadoop": {
+        "title": "Büyük Veri Laboratuvarı",
+        "summary": "Bursa Uludağ Üniversitesi Ar-Ge Koordinatörlüğü bünyesinde 15 düğümlü dağıtık Hadoop kümesinin kurulum ve yapılandırma çalışmalarına katkı.",
+        "problem": "Laboratuvarın büyük veri çalışmaları için dağıtık bir altyapının kurulması, yapılandırılması ve test edilmesi gerekiyordu.",
+        "solution": "Laboratuvar ekibinin parçası olarak Linux ortamlarının hazırlanmasına, Hadoop kümesinin yapılandırılmasına ve veri araçlarının entegrasyonuna katkı sağladım.",
+        "features": [
+          "Linux tabanlı sunucu ortamlarının hazırlanması",
+          "Hadoop altyapısının kurulumu ve yapılandırılması",
+          "Dağıtık sistemlerin ağ yapılandırması",
+          "Hive, Kafka ve PySpark kurulumları",
+          "Yazılım entegrasyonu",
+          "Sistem testleri ve hata giderme"
+        ],
+        "illustrationAlt": "Hadoop ve Linux bağlamında, temsili bağlantılarla gösterilen on beş dağıtık sunucu düğümü."
+      },
+      "lebonesa-website": {
+        "title": "Le Bonesa Kurumsal Web Sitesi",
+        "summary": "Le Bonesa’nın marka kimliğini ve ürünlerini müşterilerine sunan, aktif olarak kullanılan kurumsal web sitesi.",
+        "problem": "İşletmenin marka kimliğini ve ürünlerini müşterilerin çevrimiçi keşfedebileceği bir yerde sunması gerekiyordu.",
+        "solution": "Kurumsal marka sunumunu ve ürün tanıtımını herkese açık bir web sitesinde bir araya getirdim.",
+        "features": [
+          "Kurumsal marka sunumu",
+          "Ürün tanıtımı",
+          "Web tabanlı müşteri erişimi"
+        ],
+        "images": [
+          "Le Bonesa kurumsal web sitesinin ana sayfası",
+          "Kurumsal sitedeki ürün ve menü görünümü",
+          "Kurumsal sitedeki ziyaret ve konum bölümü"
+        ]
+      },
+      "yok-academic-crawler": {
+        "title": "YÖK Akademik Veri Toplama Projesi",
+        "summary": "Bursa Uludağ Üniversitesi akademik personeline ait verileri otomatik olarak toplayan ve yapılandırılmış çıktılar üreten uygulama.",
+        "problem": "Sayfalara yayılan akademik personel, yayın ve ödül bilgilerinin bir araya getirilmesi gerekiyordu.",
+        "solution": "Sayfalar arasında otomatik dolaşan, akademik bilgileri işleyen ve Excel ile CSV formatlarında çıktı üreten bir veri toplama uygulaması geliştirdim.",
+        "features": [
+          "Akademik personel verilerinin toplanması",
+          "Sayfalama işlemlerinin otomasyonu",
+          "Akademik yayın ve ödül bilgilerinin işlenmesi",
+          "Excel ve CSV çıktıları"
+        ],
+        "illustrationAlt": "Web sayfalarından Selenium ve Python ile veri toplama, veriyi işleme ve Excel ya da CSV tablosuna aktarma akışı."
+      },
+      "nlp-complaints": {
+        "title": "NLP — Tüketici Şikâyetlerinin Sınıflandırılması",
+        "summary": "Tüketici şikâyetlerini doğal dil işleme ve makine öğrenmesiyle sınıflandırmaya yönelik proje.",
+        "problem": "Tüketici şikâyetlerinin serbest metinden sınıflandırılabilmesi için bu metinlerin modellere uygun biçimde temsil edilmesi gerekiyordu.",
+        "solution": "Şikâyet metinlerini ön işledim, TF-IDF ile özellikler çıkardım ve sınıflandırma modellerini karşılaştırdım.",
+        "features": [
+          "Metin ön işleme",
+          "TF-IDF özellik çıkarımı",
+          "Makine öğrenmesi modellerinin karşılaştırılması",
+          "Model performansının değerlendirilmesi"
+        ],
+        "illustrationAlt": "Şikâyet metninin ön işleme, TF-IDF özellik çıkarımı ve genel sınıflandırma aşamalarından geçişi."
+      },
+      "store-app": {
+        "title": "StoreApp",
+        "summary": "ASP.NET Core MVC ile ürün yönetimi ve veri tabanı işlemleri üzerine geliştirilen eğitim projesi.",
+        "problem": "Ürün kayıtları, arama ve görsel yükleme gibi işlemlerin bir MVC uygulamasındaki veri akışını öğrenmeyi hedefledim.",
+        "solution": "Entity Framework Core ile veri erişimi sağlayan bir ürün yönetimi eğitim uygulaması geliştirdim.",
+        "features": [
+          "Ürün ekleme",
+          "Ürün listeleme",
+          "Görsel yükleme",
+          "Ürün arama ve filtreleme",
+          "Entity Framework Core entegrasyonu"
+        ],
+        "illustrationAlt": "Ürün yönetimi arayüzü, ASP.NET Core MVC uygulaması ve Entity Framework Core üzerinden veri tabanı erişimi."
+      },
+      "todo-app": {
+        "title": "TodoApp",
+        "summary": "Razor Pages, bağımlılık enjeksiyonu ve veri erişimi üzerine geliştirilmiş bir görev yönetimi eğitim uygulaması.",
+        "problem": "Görev yönetimi üzerinden farklı veri erişim yaklaşımlarını ve ortama göre yapılandırmayı uygulamak istedim.",
+        "solution": "Razor Pages ile bir görev uygulaması geliştirdim ve bellek içi veri erişimi ile Entity Framework tabanlı erişimi uyguladım.",
+        "features": [
+          "Görev yönetimi",
+          "Bellek içi ve Entity Framework tabanlı veri erişimi",
+          "Bağımlılık enjeksiyonu",
+          "Ortam bazlı yapılandırma"
+        ],
+        "illustrationAlt": "Razor Pages görev listesi, bağımlılık enjeksiyonu ile bağlanan ITodoStore ve bellek içi ya da Entity Framework Core tabanlı veri erişimi."
+      }
+    },
+    "media": "Proje görselleri",
+    "illustration": "Temsili teknik görsel",
+    "loadingDetails": "Proje detayları yükleniyor…",
+    "detailsError": "Proje detayları yüklenemedi. Sayfayı yenileyip tekrar deneyin."
+  },
+  "experience": {
+    "title": "İş Deneyimim",
+    "relatedProjects": "İlgili projeler",
+    "entries": {
+      "researchInternship": {
+        "role": "Yazılım / Ar-Ge Stajyeri",
+        "organization": "Bursa Uludağ Üniversitesi — Ar-Ge Koordinatörlüğü",
+        "start": "Şubat 2025",
+        "end": "Haziran 2025",
+        "type": "Staj",
+        "summary": "Büyük Veri Laboratuvarı’nda dağıtık sistem altyapısı ve akademik veri toplama çalışmalarına katkı sağladım.",
+        "responsibilities": {
+          "cluster": "15 düğümlü dağıtık Hadoop altyapısının kurulum ve yapılandırma çalışmalarına katkı sağladım.",
+          "systems": "Ubuntu tabanlı sistemlerde teknik kurulum, ağ yapılandırması, sistem kontrolü ve test çalışmalarında görev aldım.",
+          "tools": "Hadoop, Apache Hive, Apache Kafka ve PySpark bileşenleriyle çalıştım.",
+          "teamwork": "Ekip içinde iş takibi, hata tespiti ve problem çözme süreçlerine katıldım.",
+          "reporting": "Python ve Selenium kullanarak akademik verilerin toplanması ve Excel/CSV formatında raporlanması üzerine çalıştım."
+        }
+      },
+      "hospitality": {
+        "role": "Garson / Komi",
+        "organization": "Misi Kamp Karavan, Gümüş Vadi ve Meze Özlüce",
+        "type": "Hizmet Sektörü Deneyimi",
+        "summary": "Günlük işletme süreçlerini, sipariş takibini ve yoğun servis sırasında ekip koordinasyonunu uygulamalı olarak öğrendim.",
+        "responsibilities": {
+          "orders": "Adisyon ve sipariş takip sistemlerini kullanarak siparişleri ve müşteri taleplerini takip ettim.",
+          "coordination": "Yoğun operasyonlarda ekip koordinasyonu, müşteri iletişimi ve iş takibi sorumlulukları üstlendim.",
+          "operations": "İşletmelerin günlük operasyonları ve sipariş süreçleri hakkında uygulamalı deneyim kazandım."
+        },
+        "competencies": {
+          "billing": "Adisyon Sistemleri",
+          "operations": "Operasyonel Süreçler",
+          "orders": "Sipariş Takibi",
+          "teamwork": "Ekip Çalışması",
+          "communication": "Müşteri İletişimi"
+        }
+      }
+    },
+    "technologies": "Teknolojiler",
+    "competencies": "Kazanılan yetkinlikler"
+  },
+  "education": {
+    "title": "Eğitim",
+    "degree": "Lisans",
+    "graduated": "Mezun"
+  },
+  "additionalInformation": {
+    "title": "Ek Bilgiler",
+    "items": {
+      "military": {
+        "title": "Askerlik Durumu",
+        "description": "Askerlik hizmeti tamamlandı."
+      },
+      "license": {
+        "title": "Sürücü Belgesi",
+        "description": "B sınıfı sürücü belgesi."
+      },
+      "driving": {
+        "title": "Sürüş Deneyimi",
+        "description": "6 yıl aktif araç kullanımı."
+      },
+      "travel": {
+        "title": "Seyahat Uygunluğu",
+        "description": "Şehirlerarası seyahat ve konaklama engeli bulunmuyor."
+      },
+      "language": {
+        "title": "Yabancı Dil",
+        "description": "İngilizce — Orta seviye"
+      },
+      "location": {
+        "title": "Konum"
+      }
+    }
+  },
+  "resume": {
+    "title": "Özgeçmişim",
+    "description": "Eğitim geçmişim, teknik yetkinliklerim, proje çalışmalarım ve profesyonel deneyimlerim hakkında detaylı bilgiye özgeçmişim üzerinden ulaşabilirsiniz.",
+    "download": "CV İndir",
+    "view": "CV Görüntüle",
+    "unavailable": "Özgeçmiş PDF dosyası yakında eklenecektir."
+  },
+  "contact": {
+    "title": "İletişime Geçelim",
+    "description": "Kariyer fırsatları, iş birlikleri ve teknoloji projeleri hakkında benimle iletişime geçebilirsiniz.",
+    "status": "İş fırsatlarına açığım",
+    "heroAction": "İletişime Geç",
+    "email": {
+      "title": "Profesyonel E-posta",
+      "description": "Kariyer fırsatları ve iş birlikleri için doğrudan iletişime geçebilirsiniz.",
+      "send": "E-posta Gönder",
+      "copy": "Kopyala",
+      "copied": "Kopyalandı!",
+      "copyError": "E-posta adresi kopyalanamadı."
+    },
+    "social": {
+      "linkedin": "Profesyonel profilim, kariyer geçmişim ve iş bağlantılarım.",
+      "github": "Yazılım projelerim, kaynak kodlarım ve teknik çalışmalarım.",
+      "view": "Profili Görüntüle",
+      "profileLabel": "Profili Görüntüle: {{name}} (yeni sekmede açılır)"
+    },
+    "careerFocus": "Kariyer Odağım"
+  },
+  "footer": {
+    "navigation": "Alt bilgi gezinmesi",
+    "socialLabel": "Sosyal medya ve e-posta bağlantıları",
+    "socialLink": "{{name}} (yeni sekmede açılır)",
+    "backToTop": "Sayfanın başına dön",
+    "copyright": "© {{year}} {{name}}. Tüm hakları saklıdır."
+  }
+}

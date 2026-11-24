@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320">
+  <defs>
+    <pattern id="crawler-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0v32" fill="none" stroke="#202629"/>
+    </pattern>
+  </defs>
+  <path fill="#111416" d="M0 0h640v320H0z"/>
+  <path fill="url(#crawler-grid)" d="M0 0h640v320H0z"/>
+  <g fill="none" stroke="#369b7e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M165 150h55m81 0h54m91 0h42m-280-6 7 6-7 6m135-12 7 6-7 6m128-12 7 6-7 6"/>
+    <path d="M85 214v28h178v-20m144 0v20h143v-26" stroke="#315f54" stroke-dasharray="4 5"/>
+  </g>
+  <g fill="#162724" stroke="#4f8c79" stroke-width="2">
+    <rect x="57" y="100" width="104" height="94" rx="10"/><rect x="48" y="109" width="104" height="94" rx="10"/>
+    <rect x="224" y="108" width="76" height="86" rx="12"/><rect x="359" y="108" width="86" height="86" rx="12"/>
+    <path d="M491 90h61l32 31v81a9 9 0 0 1-9 9h-84a9 9 0 0 1-9-9v-103a9 9 0 0 1 9-9Z"/>
+  </g>
+  <g fill="none" stroke="#75d9ba" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M48 130h104m-87 16h70m-70 13h54m-54 13h64m-64 13h35M244 149l11-10m-11 10 11 10m25-20-11 10 11 10m-13-25-10 31M377 129h50l-18 22v19l-14 7v-26Zm175-39v31h32M501 142h63v49h-63zm0 16h63m-63 16h63m-42-32v49m21-49v49"/>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320">
+  <defs>
+    <pattern id="inventory-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0v32" fill="none" stroke="#202629"/>
+    </pattern>
+  </defs>
+  <path fill="#111416" d="M0 0h640v320H0z"/>
+  <path fill="url(#inventory-grid)" d="M0 0h640v320H0z"/>
+  <path d="M224 72H74a14 14 0 0 0-14 14v134a14 14 0 0 0 14 14h150a14 14 0 0 0 14-14V86a14 14 0 0 0-14-14Z" fill="#141f20" stroke="#4f8c79" stroke-width="2"/>
+  <path d="M60 101h178m-158-15h1m12 0h1m12 0h1" stroke="#75d9ba" stroke-width="2" stroke-linecap="round"/>
+  <g fill="#1e4038" stroke="#57a38c" stroke-width="2" stroke-linejoin="round">
+    <path d="m104 119 23 12v26l-23 12-23-12v-26zM176 119l23 12v26l-23 12-23-12v-26zM104 181l23 12v15l-23 12-23-12v-15zM176 181l23 12v15l-23 12-23-12v-15z"/>
+    <path d="m81 131 23 12 23-12m-23 12v26m49-38 23 12 23-12m-23 12v26m-95 24 23 12 23-12m-23 12v15m49-27 23 12 23-12m-23 12v15"/>
+  </g>
+  <path d="M238 151h66m-11-6 8 6-8 6m113-6h67m-11-6 8 6-8 6" fill="none" stroke="#55ad91" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#1b332e" stroke="#65bda2" stroke-width="2" stroke-linejoin="round"><path d="m353 97 51 30-51 30-51-30zm-51 54 51 30 51-30m-102 26 51 30 51-30"/></g>
+  <path d="M478 124v71c0 28 104 28 104 0v-71" fill="#172b26" stroke="#4f8c79" stroke-width="2"/>
+  <ellipse cx="530" cy="124" rx="52" ry="21" fill="#204237" stroke="#75d9ba" stroke-width="2"/>
+  <path d="M478 148c0 27 104 27 104 0m-104 24c0 27 104 27 104 0" fill="none" stroke="#65bda2" stroke-width="2"/>
+</svg>

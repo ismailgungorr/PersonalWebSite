@@ -1,0 +1,147 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-background: #09090b;
+  --color-card: #18181b;
+  --color-surface: #27272a;
+  --color-accent: #10b981;
+  --color-primary: #f4f4f5;
+  --color-muted: #a1a1aa;
+  --color-border: #27272a;
+  --font-sans: 'Inter Variable', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono Variable', ui-monospace, monospace;
+}
+
+@layer base {
+  html {
+    color-scheme: dark;
+    --micro-transition: 160ms ease-out;
+    scroll-padding-top: calc(var(--site-header-height, 4.5rem) + 1.5rem);
+    scrollbar-gutter: stable;
+  }
+
+  body {
+    @apply bg-background font-sans text-primary antialiased;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+  }
+}
+
+.site-container {
+  width: min(100% - 2rem, 1280px);
+  margin-inline: auto;
+}
+
+@media (max-width: 22.4375rem) {
+  .site-container {
+    width: min(100% - 1.5rem, 1280px);
+  }
+}
+
+.profile-grid {
+  background-image:
+    linear-gradient(to right, var(--color-border) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--color-border) 1px, transparent 1px);
+  background-position: center;
+  background-size: 2rem 2rem;
+}
+
+.press-feedback {
+  transition:
+    background-color var(--micro-transition),
+    border-color var(--micro-transition),
+    color var(--micro-transition),
+    scale var(--micro-transition);
+}
+
+.press-feedback:active {
+  scale: 0.97;
+}
+
+.bento-card {
+  transition: border-color var(--micro-transition);
+}
+
+.bento-card:focus-within {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+@media (min-width: 40rem) {
+  .site-container {
+    width: min(100% - 4rem, 1280px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .press-feedback,
+  .bento-card {
+    transition: none;
+  }
+
+  .bento-card {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .press-feedback:active {
+    scale: none;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .project-dialog[open] {
+    transition:
+      opacity 180ms ease-out,
+      translate 180ms ease-out;
+  }
+
+  @starting-style {
+    .project-dialog[open] {
+      opacity: 0.85;
+      translate: 0 8px;
+    }
+  }
+}
+
+.project-dialog {
+  --dialog-gap: clamp(1rem, 4vh, 2.75rem);
+  --dialog-top: max(var(--dialog-gap), env(safe-area-inset-top));
+  --dialog-bottom: max(var(--dialog-gap), env(safe-area-inset-bottom));
+  inset-inline: 0;
+  inset-block: var(--dialog-top) var(--dialog-bottom);
+  width: min(100% - 1.5rem, 56rem);
+  max-block-size: calc(100dvh - var(--dialog-top) - var(--dialog-bottom));
+  scrollbar-color: #71717a var(--color-card);
+  scrollbar-width: thin;
+}
+
+@media (forced-colors: active) {
+  .project-dialog {
+    scrollbar-color: auto;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .hero-ornament {
+    animation: hero-ornament-in 350ms ease-out both;
+  }
+
+  @keyframes hero-ornament-in {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+  }
+}
+
+html:has(dialog[open]) {
+  overflow: hidden;
+}

@@ -1,0 +1,14 @@
+node_modules/
+dist/
+dist-ssr/
+.npm-cache/
+*.local
+*.tsbuildinfo
+*.log
+.env
+.env.*
+Thumbs.db
+.DS_Store
+/.private/
+/.browser-tests/
+/.vercel/
