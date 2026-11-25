@@ -6,15 +6,18 @@ interface ResumeConfig {
 }
 
 export const resumeConfig: Record<Language, ResumeConfig> = {
-  tr: { fileName: 'ismail-gungor-cv-tr.pdf', available: false },
-  en: { fileName: 'ismail-gungor-cv-en.pdf', available: false },
+  tr: { fileName: 'ismail-gungor-cv-tr.pdf', available: true },
+  en: { fileName: 'ismail-gungor-cv-en.pdf', available: true },
 }
 
-export function getResumeUrl(language: string | undefined): string | undefined {
+export function getAvailableResume(language: string | undefined) {
   if (!isLanguage(language)) return undefined
 
   const resume = resumeConfig[language]
-  return resume.available
-    ? `${import.meta.env.BASE_URL}resume/${resume.fileName}`
-    : undefined
+  if (!resume.available) return undefined
+
+  return {
+    fileName: resume.fileName,
+    url: `${import.meta.env.BASE_URL}resume/${resume.fileName}`,
+  }
 }

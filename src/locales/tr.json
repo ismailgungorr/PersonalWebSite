@@ -386,8 +386,13 @@
     "title": "Özgeçmişim",
     "description": "Eğitim geçmişim, teknik yetkinliklerim, proje çalışmalarım ve profesyonel deneyimlerim hakkında detaylı bilgiye özgeçmişim üzerinden ulaşabilirsiniz.",
     "download": "CV İndir",
-    "view": "CV Görüntüle",
-    "unavailable": "Özgeçmiş PDF dosyası yakında eklenecektir."
+    "downloadLanguage": "{{language}} CV İndir",
+    "viewLanguage": "{{language}} CV Görüntüle",
+    "unavailable": "{{language}} CV PDF dosyası şu anda mevcut değil.",
+    "languages": {
+      "tr": "Türkçe",
+      "en": "İngilizce"
+    }
   },
   "contact": {
     "title": "İletişime Geçelim",

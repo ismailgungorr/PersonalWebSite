@@ -51,7 +51,7 @@ Yerel tarayıcı testlerinde her çalıştırma için işletim sisteminin geçic
 
 - Ortak giriş ve gecikme tanımları `src/lib/motion.ts` içindedir. Azaltılmış hareket etkinse kart animasyonlarını ve modal girişini kaldır. Modalı native dialog davranışıyla gecikmesiz kapat.
 - Proje görselleri `screenshot` ve `illustration` türleriyle yönetilir. Kart ve detay penceresinde aynı veriyi kullan. İllüstrasyonları iki dilde temsili olarak etiketle, alt metin ekle ve mevcut gerçek ekran görüntülerini koru.
-- Gerçek CV yayımlanmadan önce PDF içeriğini ve belge özelliklerini kontrol ederek telefon numarasını ve yayımlanmasına onay verilmemiş kişisel bilgileri çıkar.
+- CV yayımlanmadan önce görünür içeriği, belge dilini, metadata’yı ve gömülü içeriği denetle. Telefon numarası için yayın izni yalnızca `public/resume/ismail-gungor-cv-tr.pdf` ve `public/resume/ismail-gungor-cv-en.pdf` dosyalarını kapsar. HTML, iletişim bölümü, JavaScript, JSON-LD, Open Graph ve diğer site metadata’sı, dokümantasyon ve commit mesajları için telefon gizliliği kuralını uygula. Diğer kişisel bilgileri yayın onayına göre denetle.
 - Çeviri anahtarlarını ve yer tutucuları iki dilde eşleştir. Paket analizi, SEO ve genel Scroll Spy çalışmaları için Phase 8 onayını bekle.
 
 ## Phase 8 durumu
@@ -67,3 +67,8 @@ Yerel tarayıcı testlerinde her çalıştırma için işletim sisteminin geçic
 - Mevcut Vercel projesi `personalwebsite` ve kalıcı production adresi `https://ismailgungor.vercel.app`. GitHub `main` dalından otomatik dağıtımı, eski proje adresindeki HTTP 308 yönlendirmesini ve otomatik Vercel adreslerinin erişim korumasını koru.
 - `VITE_SITE_URL` ve `VITE_SITE_INDEXABLE=true` yalnızca Production ortamına aittir. Preview için `noindex, follow` davranışını, canlı HTML için canonical, Open Graph, JSON-LD, robots.txt ve sitemap eşleşmesini koru.
 - Canlı commit eşleşmesi ile zorunlu production kontrolleri tamamlandığında `v1.0.0` sürümünü ve tag’i hazırla. Yetkilendirme ve Search Console sahipliği için kullanıcı oturumunu kullan.
+
+## v1.0.1 özgeçmiş güncellemesi
+
+- Hero, arayüz diline ait onaylı PDF’yi indirir. Özgeçmiş bölümü her iki dili de sunar ve arayüz dilini ilk sıraya alır. Dile ait PDF yoksa `src/data/resume.ts` içindeki `available` değerini kapat.
+- PDF’leri ilk yüklemede isteme ve sitemap’e ekleme. `vercel.json` dosyasındaki `X-Robots-Tag: noindex` başlığını yalnızca iki PDF yolunda uygula.

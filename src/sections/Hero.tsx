@@ -3,14 +3,14 @@ import { Trans, useTranslation } from 'react-i18next'
 import { AvailabilityIndicator } from '../components/ui/AvailabilityIndicator'
 import { BentoCard } from '../components/ui/BentoCard'
 import { profile } from '../data/profile'
-import { getResumeUrl } from '../data/resume'
+import { getAvailableResume } from '../data/resume'
 
 const actionClass =
   'inline-flex min-h-11 items-center justify-center gap-2 rounded-xl border px-4 py-2.5 text-sm font-semibold disabled:cursor-not-allowed'
 
 export function Hero() {
   const { t, i18n } = useTranslation()
-  const resumeUrl = getResumeUrl(i18n.resolvedLanguage)
+  const resume = getAvailableResume(i18n.resolvedLanguage)
 
   return (
     <BentoCard
@@ -42,10 +42,10 @@ export function Hero() {
             <FolderGit2 size={16} aria-hidden="true" />
             {t('hero.projects')}
           </a>
-          {resumeUrl ? (
+          {resume ? (
             <a
-              href={resumeUrl}
-              download
+              href={resume.url}
+              download={resume.fileName}
               className={`${actionClass} press-feedback border-border bg-background/50 text-primary hover:bg-surface`}
             >
               <Download size={16} aria-hidden="true" />

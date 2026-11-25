@@ -386,8 +386,13 @@
     "title": "Resume",
     "description": "Learn more about my educational background, technical skills, projects and professional experience through my resume.",
     "download": "Download Resume",
-    "view": "View Resume",
-    "unavailable": "The resume PDF will be available soon."
+    "downloadLanguage": "Download {{language}} Resume",
+    "viewLanguage": "View {{language}} Resume",
+    "unavailable": "The {{language}} resume PDF is currently unavailable.",
+    "languages": {
+      "tr": "Turkish",
+      "en": "English"
+    }
   },
   "contact": {
     "title": "Let's Connect",

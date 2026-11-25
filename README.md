@@ -8,10 +8,10 @@ Bu portfolyo, İsmail Güngör’ün yazılım geliştirme, ERP ve iş süreçle
 
 - Türkçe ve İngilizce arayüz, responsive koyu Bento Grid.
 - Yedi proje, kategori filtreleri ve klavye erişimli ortak proje detay penceresi.
-- Deneyim zaman çizelgesi, eğitim, iletişim ve dile göre CV kullanılabilirliği.
+- Deneyim zaman çizelgesi, eğitim, iletişim ve Türkçe/İngilizce CV indirme.
 - Azaltılmış hareket desteği, görünür klavye odağı ve ihtiyaca göre yüklenen proje detayları.
 
-İlk kararlı sürüm **v1.0.0**. [Canlı portföy](https://ismailgungor.vercel.app) · [GitHub deposu](https://github.com/ismailgungorr/PersonalWebSite) · [Sürüm notları](CHANGELOG.md)
+Güncel sürüm **v1.0.1**. [Canlı portföy](https://ismailgungor.vercel.app) · [GitHub deposu](https://github.com/ismailgungorr/PersonalWebSite) · [Sürüm notları](CHANGELOG.md)
 
 ## Yerel geliştirme
 
@@ -132,7 +132,7 @@ Gerçek HTTPS adresinde Lighthouse 13.6.0 ile profil başına üç koşunun medy
 
 ### Google Search Console
 
-[Google Search Console](https://search.google.com/search-console/) üzerinden canlı HTTPS adresi için URL ön eki mülkü oluşturun. Google’ın sağladığı doğrulama dosyasını veya meta etiketini bir sonraki dağıtımla ekleyin. Sahipliği doğruladıktan sonra [sitemap.xml](https://ismailgungor.vercel.app/sitemap.xml) dosyasını gönderin ve URL Denetimi aracından ana sayfanın dizine eklenmesini isteyin.
+[Google Search Console](https://search.google.com/search-console/) URL ön eki mülkü için doğrulama meta etiketi `index.html` içinde yer alır. Sahipliği doğruladıktan sonra [sitemap.xml](https://ismailgungor.vercel.app/sitemap.xml) dosyasını gönderin ve URL Denetimi aracından ana sayfanın dizine eklenmesini isteyin.
 
 ## Yayın kontrol listesi
 
@@ -140,13 +140,13 @@ Gerçek HTTPS adresinde Lighthouse 13.6.0 ile profil başına üç koşunun medy
 - Vercel projesini ve production dağıtımını hazırlayın. Nihai domain, HTTPS ve hosting güvenlik başlıklarını doğrulayın.
 - Yayın için `VITE_SITE_URL` ve `VITE_SITE_INDEXABLE` değerlerini belirleyin. Canonical, mutlak Open Graph URL’leri, robots.txt, sitemap.xml ve indekslemeyi gerçek adreste doğrulayın.
 - Sosyal paylaşım önizlemesini, production Lighthouse ölçümlerini ve Google Search Console adımlarını tamamlayın.
-- Gerçek CV’lerde telefon ve diğer özel bilgileri kontrol edin. Türkçe dosyayı `public/resume/ismail-gungor-cv-tr.pdf`, İngilizce dosyayı `public/resume/ismail-gungor-cv-en.pdf` yoluna ekleyin. Yalnızca eklenen dosyanın `src/data/resume.ts` içindeki `available` değerini etkinleştirip görüntüleme ve indirmeyi test edin.
+- CV PDF’lerini güncellerken içerik, dil, metadata, dosya bütünlüğü, MIME türü, görüntüleme ve indirmeyi doğrulayın.
 
 ## Özgeçmiş gizliliği
 
-Gerçek CV dosyası yayımlanmadan önce PDF'nin görünür içeriğini, metnini ve belge özelliklerini kontrol edin. Telefon numarasını ve yayımlanmasına onay verilmemiş kişisel bilgileri çıkarın. Yalnızca onaylı PDF'nin diline ait `available` değerini etkinleştirin.
+Onaylı Türkçe ve İngilizce PDF’ler `public/resume/` altında yer alır. Hero, arayüz diline ait dosyayı indirir. Özgeçmiş bölümünde her iki dili de görüntüleyebilir ve indirebilirsiniz. Dosya yoksa `src/data/resume.ts` içindeki ilgili `available` değerini kapatın.
 
-Gerçek dosyalar eklendiğinde PDF özellikleri ve telefon numarasına ek olarak Türkçe karakterleri, dosya boyutunu, dil eşleşmesini, `HTTP 200` yanıtını, `application/pdf` MIME türünü, yeni sekmede görüntülemeyi ve indirmeyi kontrol edin.
+Telefon numarası için yayın izni yalnızca bu iki CV PDF’sini kapsar. Site içeriği, paketler, metadata, proje dokümantasyonu ve commit mesajlarında telefon gizliliğini koruyun. PDF’ler ilk sayfa yüklemesinde istenmez ve sitemap dışında tutulur. Vercel iki PDF’yi `X-Robots-Tag: noindex` başlığıyla sunar.
 
 ## Proje dizinleri
 

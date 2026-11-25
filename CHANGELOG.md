@@ -1,5 +1,11 @@
 # Sürüm notları
 
+## v1.0.1 — 25 Kasım 2026
+
+- Hero’da seçili dile göre Türkçe veya İngilizce CV indirme.
+- Özgeçmiş bölümünde her iki dilde PDF görüntüleme ve indirme.
+- Yalnızca iki CV PDF’sine uygulanan `X-Robots-Tag: noindex` başlığı.
+
 ## v1.0.0 — 25 Kasım 2026
 
 İsmail Güngör’ün kişisel portföyünün ilk kararlı sürümü. [Canlı portföy](https://ismailgungor.vercel.app)
